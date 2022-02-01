@@ -2,6 +2,8 @@
   "name": "marcogeorge7/permission-generator",
   "description": "Generate json file with all permission that call in controllers and views",
   "license": "MIT",
+  "type": "library",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Marco George",
