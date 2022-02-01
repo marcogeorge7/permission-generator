@@ -1,10 +1,10 @@
 <?php
 
-namespace ephunk\permissiongenerator\Framework;
+namespace Generator\Framework;
 
 use Illuminate\Support\ServiceProvider;
-use ephunk\permissiongenerator\Generator\ConfigLoader;
-use ephunk\permissiongenerator\Generator\PermissionRepository;
+use Generator\Generator\ConfigLoader;
+use Generator\Generator\PermissionRepository;
 
 /**
  * @codeCoverageIgnore

@@ -1,13 +1,13 @@
 <?php
 
-namespace ephunk\permissiongenerator\Infra;
+namespace Generator\Infra;
 
-use ephunk\permissiongenerator\Infra\Exception\InvalidPermissionFile;
-use ephunk\permissiongenerator\Infra\Exception\PermissionFileDoesNotExistForRole;
-use ephunk\permissiongenerator\Infra\Exception\UnableToSavePermissionKeyAlreadyExists;
-use ephunk\permissiongenerator\Generator\ConfigLoader;
-use ephunk\permissiongenerator\Generator\Permission;
-use ephunk\permissiongenerator\Generator\PermissionRepository;
+use Generator\Infra\Exception\InvalidPermissionFile;
+use Generator\Infra\Exception\PermissionFileDoesNotExistForRole;
+use Generator\Infra\Exception\UnableToSavePermissionKeyAlreadyExists;
+use Generator\Generator\ConfigLoader;
+use Generator\Generator\Permission;
+use Generator\Generator\PermissionRepository;
 
 class LaravelJsonPermissionRepository implements PermissionRepository
 {

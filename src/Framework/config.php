@@ -1,7 +1,7 @@
 <?php
 
-use ephunk\permissiongenerator\Framework\LaravelConfigLoader;
-use ephunk\permissiongenerator\Infra\LaravelJsonPermissionRepository;
+use Generator\Framework\LaravelConfigLoader;
+use Generator\Infra\LaravelJsonPermissionRepository;
 
 return [
     'roles' => ['permissions'],

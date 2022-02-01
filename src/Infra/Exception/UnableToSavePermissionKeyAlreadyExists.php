@@ -1,9 +1,9 @@
 <?php
 
-namespace ephunk\permissiongenerator\Infra\Exception;
+namespace Generator\Infra\Exception;
 
 use Exception;
-use ephunk\permissiongenerator\Generator\Permission;
+use Generator\Generator\Permission;
 
 class UnableToSavePermissionKeyAlreadyExists extends Exception
 {

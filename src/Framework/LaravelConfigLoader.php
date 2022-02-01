@@ -1,8 +1,8 @@
 <?php
 
-namespace ephunk\permissiongenerator\Framework;
+namespace Generator\Framework;
 
-use ephunk\permissiongenerator\Generator\ConfigLoader;
+use Generator\Generator\ConfigLoader;
 
 class LaravelConfigLoader implements ConfigLoader
 {

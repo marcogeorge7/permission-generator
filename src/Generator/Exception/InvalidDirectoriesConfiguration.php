@@ -1,6 +1,6 @@
 <?php
 
-namespace ephunk\permissiongenerator\Generator\Exception;
+namespace Generator\Generator\Exception;
 
 use Exception;
 

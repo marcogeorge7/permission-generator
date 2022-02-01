@@ -1,9 +1,9 @@
 <?php
 
-namespace ephunk\permissiongenerator\Generator;
+namespace Generator\Generator;
 
-use ephunk\permissiongenerator\Generator\Exception\InvalidDirectoriesConfiguration;
-use ephunk\permissiongenerator\Generator\Exception\InvalidExtensionsConfiguration;
+use Generator\Generator\Exception\InvalidDirectoriesConfiguration;
+use Generator\Generator\Exception\InvalidExtensionsConfiguration;
 
 class PermissionScanner
 {

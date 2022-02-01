@@ -3,7 +3,6 @@
   "description": "Generate json file with all permission that call in controllers and views",
   "license": "MIT",
   "type": "library",
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Marco George",
@@ -23,7 +22,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "Translator\\": "src/"
+      "Generator\\": "src/"
     },
     "files": [
       "src/Framework/helpers.php"

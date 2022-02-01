@@ -1,6 +1,6 @@
 <?php
 
-namespace ephunk\permissiongenerator\Generator;
+namespace Generator\Generator;
 
 interface PermissionRepository
 {

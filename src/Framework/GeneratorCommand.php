@@ -1,9 +1,9 @@
 <?php
 
-namespace ephunk\permissiongenerator\Framework;
+namespace Generator\Framework;
 
 use Illuminate\Console\Command;
-use ephunk\permissiongenerator\Generator\PermissionService;
+use Generator\Generator\PermissionService;
 
 /**
  * @codeCoverageIgnore
