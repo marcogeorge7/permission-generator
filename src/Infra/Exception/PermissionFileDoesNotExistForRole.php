@@ -1,6 +1,6 @@
 <?php
 
-namespace Generator\Infra\Exception;
+namespace PermissionGenerator\Infra\Exception;
 
 use Exception;
 

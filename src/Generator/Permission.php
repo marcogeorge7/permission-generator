@@ -1,6 +1,6 @@
 <?php
 
-namespace Generator\Generator;
+namespace PermissionGenerator\Generator;
 
 class Permission
 {

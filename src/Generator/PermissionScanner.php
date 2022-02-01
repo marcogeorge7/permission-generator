@@ -1,9 +1,9 @@
 <?php
 
-namespace Generator\Generator;
+namespace PermissionGenerator\Generator;
 
-use Generator\Generator\Exception\InvalidDirectoriesConfiguration;
-use Generator\Generator\Exception\InvalidExtensionsConfiguration;
+use PermissionGenerator\Generator\Exception\InvalidDirectoriesConfiguration;
+use PermissionGenerator\Generator\Exception\InvalidExtensionsConfiguration;
 
 class PermissionScanner
 {

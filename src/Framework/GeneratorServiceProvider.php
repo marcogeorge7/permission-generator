@@ -1,10 +1,10 @@
 <?php
 
-namespace Generator\Framework;
+namespace PermissionGenerator\Framework;
 
 use Illuminate\Support\ServiceProvider;
-use Generator\Generator\ConfigLoader;
-use Generator\Generator\PermissionRepository;
+use PermissionGenerator\Generator\ConfigLoader;
+use PermissionGenerator\Generator\PermissionRepository;
 
 /**
  * @codeCoverageIgnore

@@ -1,13 +1,13 @@
 <?php
 
-namespace Generator\Infra;
+namespace PermissionGenerator\Infra;
 
-use Generator\Infra\Exception\InvalidPermissionFile;
-use Generator\Infra\Exception\PermissionFileDoesNotExistForRole;
-use Generator\Infra\Exception\UnableToSavePermissionKeyAlreadyExists;
-use Generator\Generator\ConfigLoader;
-use Generator\Generator\Permission;
-use Generator\Generator\PermissionRepository;
+use PermissionGenerator\Infra\Exception\InvalidPermissionFile;
+use PermissionGenerator\Infra\Exception\PermissionFileDoesNotExistForRole;
+use PermissionGenerator\Infra\Exception\UnableToSavePermissionKeyAlreadyExists;
+use PermissionGenerator\Generator\ConfigLoader;
+use PermissionGenerator\Generator\Permission;
+use PermissionGenerator\Generator\PermissionRepository;
 
 class LaravelJsonPermissionRepository implements PermissionRepository
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Generator\Infra\Exception;
+namespace PermissionGenerator\Infra\Exception;
 
 use Exception;
-use Generator\Generator\Permission;
+use PermissionGenerator\Generator\Permission;
 
 class UnableToSavePermissionKeyAlreadyExists extends Exception
 {

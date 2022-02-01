@@ -1,7 +1,7 @@
 <?php
 
-use Generator\Framework\LaravelConfigLoader;
-use Generator\Infra\LaravelJsonPermissionRepository;
+use PermissionGenerator\Framework\LaravelConfigLoader;
+use PermissionGenerator\Infra\LaravelJsonPermissionRepository;
 
 return [
     'roles' => ['permissions'],

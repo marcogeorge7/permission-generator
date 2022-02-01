@@ -1,8 +1,8 @@
 <?php
 
-namespace Generator\Framework;
+namespace PermissionGenerator\Framework;
 
-use Generator\Generator\ConfigLoader;
+use PermissionGenerator\Generator\ConfigLoader;
 
 class LaravelConfigLoader implements ConfigLoader
 {

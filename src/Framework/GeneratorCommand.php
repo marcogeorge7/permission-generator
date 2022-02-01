@@ -1,9 +1,9 @@
 <?php
 
-namespace Generator\Framework;
+namespace PermissionGenerator\Framework;
 
 use Illuminate\Console\Command;
-use Generator\Generator\PermissionService;
+use PermissionGenerator\Generator\PermissionService;
 
 /**
  * @codeCoverageIgnore
