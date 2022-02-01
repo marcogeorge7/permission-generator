@@ -1,0 +1,38 @@
+{
+  "name": "marcogeorge7/permission-generator",
+  "description": "Generate json file with all permission that call in controllers and views",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marco George",
+      "email": "marco.george@icloud.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-json": "*",
+    "laravel/framework": ">=5.4.0"
+  },
+  "require-dev": {
+    "slevomat/coding-standard": "^6.0",
+    "phpstan/phpstan": "^0.12",
+    "phpunit/phpunit": "^9.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Translator\\": "src/"
+    },
+    "files": [
+      "src/Framework/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Generator\\Framework\\GeneratorServiceProvider"
+      ]
+    }
+  }
+}
